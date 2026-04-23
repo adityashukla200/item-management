@@ -1,0 +1,116 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f2f2f2;
+}
+
+/* APP WRAPPER */
+.app-container {
+  min-height: 100vh;
+}
+
+/* AUTH SCREEN */
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD */
+.card {
+  width: 340px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  flex: 1;
+  border: none;
+  background: none;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.tabs .active {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
+
+/* FORM */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+/* BUTTON */
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.primary {
+  background: #ff6a00;
+  color: white;
+  font-weight: bold;
+}
+
+.primary:hover {
+  background: #e65c00;
+}
+
+/* ERROR */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* DASHBOARD */
+.dashboard {
+  padding: 20px;
+}
+
+/* LOGOUT */
+.logout {
+  float: right;
+  background: red;
+  color: white;
+  padding: 8px 12px;
+}
+
+/* FORM */
+.dashboard form {
+  margin-bottom: 20px;
+}
+
+/* ITEM CARD */
+.item {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
